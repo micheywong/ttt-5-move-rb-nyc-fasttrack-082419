@@ -10,7 +10,7 @@ require_relative '../lib/move.rb'
  
  user_input = gets.chomp
  
- index = Input_to_index(user_input)
+ index = input_to_index(user_input)
  
  move(board, index)
  display_board(board)
