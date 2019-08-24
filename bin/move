@@ -12,5 +12,5 @@ require_relative '../lib/move.rb'
  
  index = Input_to_index(user_input)
  
- # move(board, index)
- # display_board(board)
+ move(board, index)
+ display_board(board)
